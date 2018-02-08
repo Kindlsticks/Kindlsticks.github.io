@@ -12,7 +12,7 @@ html
 
 body
 {
-  background-color: #DAD3BC;
+  background-color: #fffbef;
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
   color: #3d2710;
@@ -43,7 +43,7 @@ body
 
 .navigation
 {
-  background-color: #fffbef;
+  background-color: #DAD3BC;
   position: relative;
   overflow: auto;
 	text-align: center;
@@ -146,7 +146,7 @@ body
 
 footer
 {
-  background-color: #fffbef;
+  background-color: #DAD3BC;
 }
 
 footer ul
