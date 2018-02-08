@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html
+{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after
+{
+  box-sizing: inherit;
+}
+
+body
+{
+  background-color: #1C1C1C;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+  color: #ffffff;
+	font-size: 24px;
+  line-height: 1.5;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.cover
+{
+	position: relative;
+	overflow: auto;
+	margin: 0em;
+
+  background-position: center;
+	padding: 0em;
+}
+
+.header
+{
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.navigation
+{
+  background-color: #262626;
+  position: relative;
+  overflow: auto;
+	text-align: center;
+}
+
+.twocol {
+	width: 50%;
+	overflow: auto;
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.threecol {
+	width: 33%;
+  height: width;
+	overflow: auto;
+  float: left;
+  padding: .5em;
+}
+
+.square
+{
+  position: relative;
+}
+
+.square:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+
+.square > .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.container
+{
+	position: relative;
+	overflow: auto;
+	margin: 0;
+	padding: 8em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.navigation ul, footer ul
+{
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.navigation ul li, footer ul li
+{
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.content ul
+{
+  margin-bottom: 0px;
+	margin-top: 0px;
+  font-size: 1.5em;
+  padding: 0px;
+}
+
+.banner .overlay
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	opacity: 0.5;
+	z-index: 1;
+	transition: .15s;
+}
+
+.banner:hover > .overlay
+{
+	opacity: 0.0;
+}
+
+.banner
+{
+  height: 100%;
+  display: block;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+footer
+{
+  background-color: #262626;
+}
+
+footer ul
+{
+  padding: 0px;
+}
+
+a, a:visited, a:focus
+{
+  color: #FF00A4;
+  text-decoration: none;
+  transition: .15s;
+}
+
+a:hover
+{
+  color: #68FFFF;
+}
+
+a img
+{
+  border: 0;
+}
+
+@media (max-width: 800px)
+{
+  body
+  {
+    font-size: 16px;
+		line-height: 1.5;
+  }
+
+  .container
+  {
+  	padding: 2em;
+  }
+
+  .header
+  {
+		width: 100%;
+		padding-right: 0em;
+	}
+
+	.navigation
+  {
+		width: 100%;
+		text-align: center;
+		padding: 0px;
+		align-items: center;
+    position: relative;
+	}
+
+  .threecol {
+		width: 100%;
+	}
+
+  .twocol {
+		width: 100%;
+    padding: 0em;
+	}
+}

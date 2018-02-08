@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="container" style="padding-left: 0em; padding-right: 0em; padding-top: 0em;">
+	{% for images in page.images %}
+		<img style="max-width: 100%;" src = {{ images }}>
+	{% endfor %}
+</div>
+
+<div class="container" style="padding-left: 0em; padding-right: 0em;">
+	<div class="twocol">
+		<h2>{{ page.title }}</h2>
+	</div>
+	<div class="twocol">
+		<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
+		<h3>{{ page.section }}</h3>
+	</div>
+</div>
+
+<div class="container" style="padding-left: 0em; padding-right: 0em; padding-top: 0em;">
+	<hr>
+	{{ content }}
+</div>
