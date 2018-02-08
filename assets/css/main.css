@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@font-face
+{
+    font-family: honeyGuide;
+    src: url("/assets/fonts/dk_honeyguide_caps.otf");
+}
 
 html
 {
@@ -13,7 +17,7 @@ html
 body
 {
   background-color: #DAD3BC;
-	font-family: 'Quicksand', sans-serif;
+	font-family: honeyGuide;
 	text-align: center;
   color: #3d2710;
 	font-size: 24px;
