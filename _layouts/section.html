@@ -7,9 +7,9 @@ layout: default
 {% for post in site.posts %}
 	{% if post.section contains page.key %}
 			<div class="threecol">
-				<div class="square">
-					<div class="icon">
-						<div style="background-image:url(/assets/images/frame.png);">
+				<div style="background-image:url(/assets/images/frame.png);" style="height: 100%; width: auto;"">
+					<div class="square">
+						<div class="icon">
 							<a href="{{ post.url }}" title="{{ post.title }}">
 								<div style="background-image:url({{ post.images[0] }});" class="banner">
 									<div class="overlay"></div>
