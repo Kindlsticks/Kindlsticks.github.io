@@ -1,5 +1,6 @@
 {
-    "name": "Jordan Kegler",
+    "name": "Jen Kindl",
+    "short_name": "Jen Kindl",
     "icons": [
         {
             "src": "/assets/icons/android-chrome-192x192.png",
@@ -7,12 +8,12 @@
             "type": "image/png"
         },
         {
-            "src": "/assets/icons/android-chrome-256x256.png",
-            "sizes": "256x256",
+            "src": "/assets/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
-    "theme_color": "#262626",
-    "background_color": "#262626",
+    "theme_color": "#e2791a",
+    "background_color": "#e2791a",
     "display": "standalone"
 }
